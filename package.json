@@ -1,0 +1,28 @@
+{
+  "name": "pdf-to-image-converter",
+  "version": "1.0.0",
+  "description": "A Node.js script to convert PDF files to images using pdf-poppler.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "image",
+    "convert",
+    "laravel",
+    "pdf-poppler"
+  ],
+  "author": "Rajesh Predhan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "pdf-poppler": "^0.2.1"
+  }
+}
