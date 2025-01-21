@@ -110,6 +110,6 @@ app.get('/', (req, res) => {
     res.send('<h1>Welcome to the Home Page</h1><p>This is a basic Node.js app running on port 3000.</p>');
 });
 
-app.listen(port, '147.93.98.125', () => {
-    console.log(`Server is running on http://147.93.98.125:${port}`);
+app.listen(port, () => {
+    console.log(`Server is running on ${port}`);
 });
